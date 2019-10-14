@@ -1,15 +1,19 @@
 # MitsubaToFRenderer_Docker
 
-## MitsubaToFRenderer Base
+## MitsubaToFRenderer Dockerimages
 
 ### How to pull docker image
 ```
 sudo docker pull zigzagzackey/mitsubatof_base
+sudo docker pull zigzagzackey/mitsubatof_linuxbrew
+sudo docker pull zigzagzackey/mitsubatof_pip
 ```
 
 ### How to run docker container
 ```
-docker run -it zigzagzackey/mitsubatof_base /bin/bash
+sudo docker run -it zigzagzackey/mitsubatof_base /bin/bash
+sudo docker run -it zigzagzackey/mitsubatof_linuxbrew /bin/bash
+sudo docker run -it zigzagzackey/mitsubatof_pip /bin/bash
 ```
 
 ### USAGE
