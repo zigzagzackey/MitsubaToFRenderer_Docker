@@ -2,6 +2,13 @@
 
 ## MitsubaToFRenderer Dockerimages
 
+### How to build docker image
+```
+sudo docker build -t zigzagzackey/mitsubatof_base .
+sudo docker build -t zigzagzackey/mitsubatof_linuxbrew .
+sudo docker build -t zigzagzackey/mitsubatof_pip .
+```
+
 ### How to pull docker image
 ```
 sudo docker pull zigzagzackey/mitsubatof_base
